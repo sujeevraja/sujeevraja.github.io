@@ -13,12 +13,20 @@ var app = {
     'Other'
   ],
   name: 'Sujeevraja Sanjeevi',
-  bio: 'I am currently employed as a Senior Operations Research Developer \
-    in Sabre. I work on Recovery Manager Crew , a large-scale crew recovery \
-    optimizer. I completed my PhD in Industrial Engineering at \
-    Texas A&M University in August 2012. My advisor was \
-    Dr. Kiavash Kianfar. I can be contacted at \
-    [firstname]26[at]gmail[dot]com.'
+  bio: [
+    'I am currently employed as a Senior Operations Research Developer in ',
+    m('a[href=http://www.sabre.com/]', 'Sabre'),
+    '. I work on ',
+    m('i', 'Recovery Manager Crew'),
+    ', a large scale crew-recovery optimizer.',
+    ' I completed my PhD in Industrial Engineering at ',
+    m('a[href=https://engineering.tamu.edu/industrial]',
+      m.trust('Texas A&M University')),
+    '. My advisor was ',
+    m('a[href=https://engineering.tamu.edu/industrial/people/kkianfar]',
+      'Dr. Kiavash Kianfar'),
+    '. I can be reached at firstname26[at]gmail[dot]com.'
+  ]
 };
 
 app.sidebar = {
