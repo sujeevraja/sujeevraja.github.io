@@ -29,6 +29,12 @@ var app = {
   ]
 };
 
+app.comingsoon = {
+  view: function(ctrl) {
+    return m('h3', 'Coming soon.');
+  }
+};
+
 app.sidebar = {
   controller: function() {
     return { links: app.links };
@@ -36,7 +42,12 @@ app.sidebar = {
 
   view: function(ctrl) {
     var liElems = ctrl.links.map(function(name) {
-      return m("li", {}, m('a', {href: "#"}, name));
+      return m("li", {}, m('a', {
+        onclick: function() {
+          m.mount(document.getElementById('current-view'),
+            name === 'Home' ? app.homepage : app.comingsoon);
+        }
+      }, name));
     });
 
     //liElems.unshift(m("li", {class: "sidebar-brand"},
@@ -54,12 +65,7 @@ app.homepage = {
     };
   },
   view: function(ctrl) {
-    return [
-      m("h1", ctrl.name),
-      m("br"),
-      m("br"),
-      m("p", ctrl.bio)
-    ];
+    return m('p', ctrl.bio);
   }
 };
 
