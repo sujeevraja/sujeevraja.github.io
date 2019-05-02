@@ -9,22 +9,37 @@
 
 <body>
     <!-- font wrapper -->
-    <div class="helvetica">
-        <!-- 2 column grid for sidebar and content-->
-        <div class="flex items-center">
-            <!-- sidebar -->
+    <div class="helvetica pa2">
+        <!--
+            2 column grid for sidebar and content
+            items-start: columns stick to the top
+        -->
+        <div class="flex items-start">
+            <!--sidebar -->
             <div class="flex flex-column w6">
-                <div class="outline w-100 pa3 mt2">Bio</div>
-                <div class="outline w-100 pa3 mt2">Experience</div>
-                <div class="outline w-100 pa3 mt2">Education</div>
-                <div class="outline w-100 pa3 mt2">Publications</div>
-                <div class="outline w-100 pa3 mt2">Presentations</div>
-                <div class="outline w-100 pa3 mt2">Other</div>
+                <!--
+                    w-100: 100% width
+                    pa3: pad all 3
+                    mt2: margin top 2
+                    dim black: dims font on hover
+                -->
+                <div class="outline w-100 pa3 dim black">Bio</div>
+                <div class="outline w-100 pa3 mt2 dim black">Experience</div>
+                <div class="outline w-100 pa3 mt2 dim black">Education</div>
+                <div class="outline w-100 pa3 mt2 dim black">Publications</div>
+                <div class="outline w-100 pa3 mt2 dim black">Presentations</div>
+                <div class="outline w-100 pa3 mt2 dim black">Other</div>
             </div>
 
             <!-- content -->
-            <div class="outline w-100 pa3 ml2 mt2">
-                Content
+            <div class="outline w-100 pa3 ml2">
+                <ul>
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                    <li>content</li>
+                </ul>
             </div>
         </div>
 
