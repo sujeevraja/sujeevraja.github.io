@@ -3,22 +3,37 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- tachyons provides layout classes like w-100, pa3 etc.-->
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+	<!-- academicons provides academic page icons like Google Scholar. -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
+
+	<!-- fontawesome provides company icons like Linkedin and Github. -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <title>Sujeev's Homepage</title>
 </head>
 
 <body>
-    <!-- font wrapper -->
+    <!--
+		font wrapper
+		pa2: pad on all sides by 2
+	-->
     <div class="helvetica pa2">
         <!--
             2 column grid for sidebar and content
             items-start: columns stick to the top
         -->
         <div class="flex items-start">
-            <!--sidebar -->
+            <!--
+				sidebar
+				flex: squeezes items together
+				flex-column: squeezes items into a column
+				w6: fixed width (ranges from w1 to w10)
+			-->
             <div class="flex flex-column w6">
                 <!--
                     w-100: 100% width
@@ -26,12 +41,15 @@
                     mt2: margin top 2
                     dim black: dims font on hover
                 -->
+				<!-- same page links -->
                 <div class="outline w-100 pa3 dim black">Bio</div>
                 <div class="outline w-100 pa3 mt2 dim black">Experience</div>
                 <div class="outline w-100 pa3 mt2 dim black">Education</div>
                 <div class="outline w-100 pa3 mt2 dim black">Publications</div>
                 <div class="outline w-100 pa3 mt2 dim black">Presentations</div>
                 <div class="outline w-100 pa3 mt2 dim black">Other</div>
+
+				<!-- icon links to external pages -->
                 <div class="w-100 mt2 flex">
                     <div class="w-third pa1 dim black">
                         <a href="https://scholar.google.com/citations?user=S2CWoKoAAAAJ&hl=en">
@@ -51,7 +69,11 @@
                 </div>
             </div>
 
-            <!-- content -->
+            <!--
+				content box
+				outline: draws a border on all sides
+				ml2: margin left 2
+			-->
             <div class="outline w-100 pa3 ml2">
                 <ul>
                     <li>content</li>
