@@ -3,56 +3,96 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<!-- tachyons provides layout classes like w-100, pa3 etc.-->
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+	<!-- academicons provides academic page icons like Google Scholar. -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+	<!-- fontawesome provides company icons like Linkedin and Github. -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <title>Sujeev's Homepage</title>
 </head>
 
 <body>
+    <!-- Link for documentation on Tachyons styles used:
+            http://tachyons.io/docs/table-of-styles/
+
+        Each style can be searched on the above page with Ctrl+f search.
+
+        bg-purple: background purple
+        br3: border radius 3
+        dim black: dims text/icon on hover
+        flex: squeezes all items together
+        flex-column: squeezes items into a column
+        items-start: columns stick to the top
+        ml2: margin left 2
+        mt2: margin top 2
+        outline: draws a border on all sides
+        pa{1,2,3}: pad on all sides by {1,2,3}
+        w-100: percentage width of outer container (not all percentages available, check docs)
+        w-third: one-third width of outer container
+        w6: fixed width (the 6 can be changed from 1 to 10)
+        white: text color
+    -->
+
     <!-- font wrapper -->
     <div class="helvetica pa2">
-        <!--
-            2 column grid for sidebar and content
-            items-start: columns stick to the top
-        -->
+        <!-- 2 column grid for sidebar and content -->
         <div class="flex items-start">
-            <!--sidebar -->
+            <!-- sidebar -->
             <div class="flex flex-column w6">
-                <!--
-                    w-100: 100% width
-                    pa3: pad all 3
-                    mt2: margin top 2
-                    dim black: dims font on hover
-                -->
-                <div class="outline w-100 pa3 dim black">Bio</div>
-                <div class="outline w-100 pa3 mt2 dim black">Experience</div>
-                <div class="outline w-100 pa3 mt2 dim black">Education</div>
-                <div class="outline w-100 pa3 mt2 dim black">Publications</div>
-                <div class="outline w-100 pa3 mt2 dim black">Presentations</div>
-                <div class="outline w-100 pa3 mt2 dim black">Other</div>
-                <div class="outline w-100 pa3 mt2 dim black">
-                    <ul style="list-style:none;">
-                        <li><i class="ai ai-google-scholar-square ai-3x"></i></li>
-                        <li><i class="fab fa-linkedin-in fa-3x"></i></li>
-                    </ul>
+				<!-- same page links -->
+                <div class="outline w-100 pa3 br3 dim bg-purple white">Bio</div>
+                <div class="outline w-100 pa3 mt2 br3 dim bg-purple white">Experience</div>
+                <div class="outline w-100 pa3 mt2 br3 dim bg-purple white">Education</div>
+                <div class="outline w-100 pa3 mt2 br3 dim bg-purple white">Publications</div>
+                <div class="outline w-100 pa3 mt2 br3 dim bg-purple white">Presentations</div>
+                <div class="outline w-100 pa3 mt2 br3 dim bg-purple white">Other</div>
+
+				<!-- icon links to external pages set 1 -->
+               <div class="w-100 mt2 flex">
+                    <div class="w-third pa1 dim">
+                        <a href="https://scholar.google.com/citations?user=S2CWoKoAAAAJ&hl=en">
+                            <i class="ai ai-google-scholar-square ai-2x"></i>
+                        </a>
+                    </div>
+                    <div class="w-third pa1 dim">
+                        <a href="https://www.linkedin.com/in/sujeevraja-sanjeevi-2b434242">
+                            <i class="fab fa-linkedin-in fa-2x"></i>
+                        </a>
+                    </div>
+                    <div class="w-third pa1 dim">
+                        <a href="https://github.com/sujeevraja">
+                            <i class="fab fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>
+
+				<!-- icon links to external pages set 2 -->
+                <div class="w-100 mt2 flex">
+                    <div class="w-third pa1 dim">
+                        <a href="https://www.researchgate.net/profile/Sujeevraja_Sanjeevi">
+                            <i class="fab fa-researchgate fa-2x"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
 
-            <!-- content -->
-            <div class="outline w-100 pa3 ml2">
-                <ul>
-                    <li>content</li>
-                    <li>content</li>
-                    <li>content</li>
-                    <li>content</li>
-                    <li>content</li>
-                </ul>
+            <!-- content box -->
+            <div class="flex flex-column w-100 ml2">
+                <div class="outline w-100 pa3">bio box</div>
+                <div class="outline w-100 pa3 mt2">experience box</div>
+                <div class="outline w-100 pa3 mt2">education box</div>
+                <div class="outline w-100 pa3 mt2">publications box</div>
+                <div class="outline w-100 pa3 mt2">presentations box</div>
+                <div class="outline w-100 pa3 mt2">other box</div>
             </div>
         </div>
-
     </div>
 
-    </div>
     <script src="bin/app.js"></script>
 </body>
