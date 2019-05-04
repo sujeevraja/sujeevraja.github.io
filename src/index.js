@@ -1,6 +1,5 @@
 import m from "mithril";
-var Sidebar = require("./views/Sidebar")
-var Content = require("./views/Content")
+var Body = require("./views/Body")
 
 /*
 Link for documentation on Tachyons styles used:
@@ -24,9 +23,6 @@ Link for documentation on Tachyons styles used:
     white: text color
 */
 
-m.render(document.body, m('div', { class: 'helvetica pa2' }, [
-    m('div', { class: 'flex items-start' }, [
-        m(Sidebar),
-        m(Content),
-    ]),
-]));
+// Only components created with mount and their subcomponents will be redrawn.
+// We need redraws after file loads and so need a component for the body.
+m.mount(document.body, Body);
