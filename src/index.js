@@ -1,5 +1,8 @@
 import m from "mithril";
+
 var Body = require("./views/Body")
+var ComingSoon = require("./views/ComingSoon")
+var PublicationList = require("./views/PublicationList")
 
 /*
 Link for documentation on Tachyons styles used:
@@ -25,4 +28,17 @@ Link for documentation on Tachyons styles used:
 
 // Only components created with mount and their subcomponents will be redrawn.
 // We need redraws after file loads and so need a component for the body.
-m.mount(document.body, Body);
+// m.mount(document.body, Body);
+
+m.route(document.body, "/", {
+    "/": {
+        render: function () {
+            return m(Body, { comp: ComingSoon })
+        }
+    },
+    "/publications": {
+        render: function () {
+            return m(Body, { comp: PublicationList })
+        }
+    }
+})

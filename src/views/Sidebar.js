@@ -1,4 +1,10 @@
-var m = require("mithril").default;
+var m = require("mithril").default
+var SidebarBox = require("./SidebarBox")
+
+var Link = function (name, route) {
+    this.name = name
+    this.route = route
+}
 
 module.exports = {
     view: function () {
@@ -23,16 +29,14 @@ module.exports = {
         ])
 
         var links = [
-            'Bio',
-            'Experience',
-            'Education',
-            'Publications',
-            'Presentations',]
+            new Link('Bio', '/'),
+            new Link('Experience', '/#!/experience'),
+            new Link('Education', '/#!/education'),
+            new Link('Publications', '/#!/publications'),
+            new Link('Presentations', '/#!/presentations'),]
 
         var sidebarBoxes = links.map(function (link) {
-            return m('div', {
-                class: 'outline w-100 pa3 mt2 br3 dim bg-orange white'
-            }, link)
+            return m(SidebarBox, { link: link })
         })
 
         sidebarBoxes = sidebarBoxes.concat([iconSet1, iconSet2])
