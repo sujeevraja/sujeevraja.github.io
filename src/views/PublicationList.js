@@ -2,10 +2,15 @@ var m = require("mithril").default
 var Publication = require("../models/Publication")
 
 var publicationView = function (pub) {
-    var s = (pub.title + ", " + pub.journal + ", " + pub.authors + ", Vol "
+    var s = (pub.authors + ", Vol "
         + pub.volume + ", Issue " + pub.issue + ", " + pub.pages + ", "
         + pub.year + ".")
-    return m("li", {}, [s, m("br")])
+    return m("li", { class: "pa2" }, [
+        m('i', pub.title),
+        ", ",
+        m('b', pub.journal),
+        ", ",
+        s,])
 }
 
 module.exports = {
