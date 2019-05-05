@@ -27,13 +27,11 @@ module.exports = {
             'Experience',
             'Education',
             'Publications',
-            'Presentations',
-            'Other'
-        ]
+            'Presentations',]
 
         var sidebarBoxes = links.map(function (link) {
             return m('div', {
-                class: 'outline w-100 pa3 mt2 br3 dim bg-purple white'
+                class: 'outline w-100 pa3 mt2 br3 dim bg-orange white'
             }, link)
         })
 
