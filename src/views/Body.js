@@ -3,7 +3,7 @@ var Sidebar = require("./Sidebar")
 var Content = require("./Content")
 
 var view = function (vnode) {
-    var column = m('div', { class: 'bg-orange white pa3 tc' },
+    var column = m('div', { class: 'bg-dark-green white pa3 tc' },
         m('a', { href: '/', class: 'no-underline white f4' }, 'Sujeevraja "Sujeev" Sanjeevi'))
     return m('div', { class: 'helvetica' }, [
         column,
