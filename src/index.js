@@ -4,8 +4,9 @@ var Body = require("./views/Body")
 
 // views
 var BioBox = require("./views/BioBox")
+var ExperienceBox = require("./views/ExperienceBox")
 var ComingSoon = require("./views/ComingSoon")
-var PublicationList = require("./views/PublicationList")
+var PublicationBox = require("./views/PublicationBox")
 
 /*
 Link for documentation on Tachyons styles used:
@@ -41,7 +42,7 @@ m.route(document.body, "/", {
     },
     "/experience": {
         render: function () {
-            return m(Body, { comp: ComingSoon })
+            return m(Body, { comp: ExperienceBox })
         }
     },
     "/education": {
@@ -51,7 +52,7 @@ m.route(document.body, "/", {
     },
     "/publications": {
         render: function () {
-            return m(Body, { comp: PublicationList })
+            return m(Body, { comp: PublicationBox })
         }
     },
     "/presentations": {
