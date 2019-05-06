@@ -1,0 +1,64 @@
+[
+    {
+        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Sivakumar Rathinam, Joao Sousa",
+        "title": "Path planning for underwater vehicles with uncertain localization errors - from offline to online algorithms"
+    },
+    {
+        "authors": "Sujeevraja Sanjeevi, Saravanan Venkatachalam",
+        "title": "Managing airline delay uncertainty by adjusting connection slacks: a two-stage stochastic programming approach"
+    },
+    {
+        "authors": "Sujeevraja Sanjeevi, Sina Masihabadi, Kiavash Kianfar",
+        "title": "Using cuts for mixed integer knapsack sets to generate cuts for mixed integer polyhedral conic sets",
+        "journal": "Mathematical Programming",
+        "volume": "159",
+        "issue": "1-2",
+        "pages": "571-583",
+        "year": "2016"
+    },
+    {
+        "authors": "Justin Yates, Sujeevraja Sanjeevi",
+        "title": "A length-based multiple-resource formulation for shortest path network interdiction problems in the transportation sector",
+        "journal": "International Journal of Critical Infrastructure Protection",
+        "volume": "6",
+        "issue": "2",
+        "pages": "107-119",
+        "year": "2013"
+    },
+    {
+        "authors": "Sujeevraja Sanjeevi, Kiavash Kianfar",
+        "title": "Mixed n-step MIR inequalities: facets for the n-mixing set",
+        "journal": "Discrete Optimization",
+        "volume": "9",
+        "issue": "4",
+        "pages": "216-235",
+        "year": "2012"
+    },
+    {
+        "authors": "Justin Yates, Sujeevraja Sanjeevi",
+        "title": "Assessing the impact of vulnerability modeling in the protection of critical infrastructure",
+        "journal": "Journal of Geographical Systems",
+        "volume": "14",
+        "issue": "4",
+        "pages": "415-435",
+        "year": "2012"
+    },
+    {
+        "authors": "Sujeevraja Sanjeevi, Kiavash Kianfar",
+        "title": "A polyhedral study of triplet forulation for single row facility layout problem",
+        "journal": "Discrete Applied Mathematics",
+        "volume": "158",
+        "issue": "16",
+        "pages": "1861-1867",
+        "year": "2010"
+    },
+    {
+        "authors": "Marambedu Ramesh Karthikeyan, Sujeevraja Sanjeevi, Vijay Srinivasan, Latha Nagendran, Viswanatha Ramamurti",
+        "title": "Preprocessing and graphics associated with cyclic symmetry",
+        "journal": "International Journal of Computational Methods",
+        "volume": "5",
+        "issue": "3",
+        "pages": "365-380",
+        "year": "2008"
+    }
+]
