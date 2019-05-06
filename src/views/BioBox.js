@@ -23,7 +23,9 @@ module.exports = {
             m('br'),
             m('br'),
             m('h1', { class: 'f4 lh-title' }, 'Interests'),
-            interests
-        ]
+            interests,
+            m('br'),
+            m('h1', { class: 'f4 lh-title' }, 'Software'),
+            Bio.software]
     }
 }

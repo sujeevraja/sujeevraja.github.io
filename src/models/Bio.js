@@ -34,7 +34,8 @@ var Bio = {
         'optimization techniques and heuristics to achieve reasonable ',
         'solutions to real-world problems quickly. Techniques I incorporate ',
         'include ',
-        m('a', { href: 'https://en.wikipedia.org/wiki/Column_generation' }, 'Column generation'),
+        m('a', { href: 'https://en.wikipedia.org/wiki/Column_generation' },
+            'Column generation'),
         ', ',
         m('a', { href: 'https://en.wikipedia.org/wiki/Benders_decomposition' },
             'Benders decomposition'),
@@ -42,6 +43,26 @@ var Bio = {
         m('a', { href: 'https://en.wikipedia.org/wiki/Variable_neighborhood_search' },
             'Variable neighborhood search.')
     ],
+
+    software: [
+        'I write production code in C++ and rely on Python3 for scripting. ',
+        'I have written code in C++, Java, Jula, Kotlin and Python for my ',
+        'research work. I use ',
+        m('a', { href: 'https://www.ibm.com/analytics/cplex-optimizer' },
+            'CPLEX'),
+        ' to solve optimization problems when available and ',
+        m('a', { href: 'https://projects.coin-or.org/Clp' }, 'CLP'),
+        ' or ',
+        m('a', { href: 'https://projects.coin-or.org/Cbc' }, 'CBC'),
+        ' from the ',
+        m('a', { href: 'https://www.coin-or.org/' }, 'COIN-OR'),
+        ' project otherwise. I switch between ',
+        m('a', { href: 'https://www.jetbrains.com/idea/' }, 'Idea'),
+        ', ',
+        m('a', { href: 'https://code.visualstudio.com/' }, 'VSCode'),
+        ', and ',
+        m('a', { href: 'https://www.sublimetext.com/' }, 'Sublime'),
+        ' to write code, but never without a Vim emulation layer.'],
 
     interests: [
         "Airline Disruption Management",
