@@ -33,6 +33,7 @@ module.exports = {
             new Link('Experience', '/#!/experience'),
             new Link('Education', '/#!/education'),
             new Link('Publications', '/#!/publications'),
+            new Link('Presentations', '/#!/presentations'),
             new Link('Teaching', '/#!/teaching'),
             new Link('Activities', '#!/activities'),
         ]

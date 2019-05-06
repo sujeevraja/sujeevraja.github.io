@@ -8,6 +8,7 @@ var ExperienceBox = require("./views/ExperienceBox")
 var EducationBox = require("./views/EducationBox")
 var ComingSoon = require("./views/ComingSoon")
 var PublicationBox = require("./views/PublicationBox")
+var PresentationBox = require("./views/PresentationBox")
 var TeachingBox = require("./views/TeachingBox")
 var ActivitiesBox = require("./views/ActivitiesBox")
 
@@ -56,6 +57,11 @@ m.route(document.body, "/", {
     "/publications": {
         render: function () {
             return m(Body, { comp: PublicationBox })
+        }
+    },
+    "/presentations": {
+        render: function () {
+            return m(Body, { comp: PresentationBox })
         }
     },
     "/teaching": {
