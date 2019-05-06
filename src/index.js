@@ -9,6 +9,7 @@ var EducationBox = require("./views/EducationBox")
 var ComingSoon = require("./views/ComingSoon")
 var PublicationBox = require("./views/PublicationBox")
 var TeachingBox = require("./views/TeachingBox")
+var ActivitiesBox = require("./views/ActivitiesBox")
 
 /*
 Link for documentation on Tachyons styles used:
@@ -60,6 +61,11 @@ m.route(document.body, "/", {
     "/teaching": {
         render: function () {
             return m(Body, { comp: TeachingBox })
+        }
+    },
+    "/activities": {
+        render: function () {
+            return m(Body, { comp: ActivitiesBox })
         }
     }
 })

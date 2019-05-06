@@ -7,7 +7,7 @@ var view = function (vnode) {
         m('a', { href: '/', class: 'no-underline white f4' }, 'Sujeevraja "Sujeev" Sanjeevi'))
 
     var footer = m('div', {
-        class: 'fixed tc left-0 bottom-0 right-0 bg-near-white gray pa4'
+        class: 'fixed tc left-0 bottom-0 right-0 bg-light-gray gray pa4'
     }, [
             'Built from scratch with ',
             m('a', { href: 'http://tachyons.io/' }, 'Tachyons'),
