@@ -1,6 +1,9 @@
 import m from "mithril";
 
 var Body = require("./views/Body")
+
+// views
+var BioBox = require("./views/BioBox")
 var ComingSoon = require("./views/ComingSoon")
 var PublicationList = require("./views/PublicationList")
 
@@ -33,12 +36,27 @@ Link for documentation on Tachyons styles used:
 m.route(document.body, "/", {
     "/": {
         render: function () {
+            return m(Body, { comp: BioBox })
+        }
+    },
+    "/experience": {
+        render: function () {
+            return m(Body, { comp: ComingSoon })
+        }
+    },
+    "/education": {
+        render: function () {
             return m(Body, { comp: ComingSoon })
         }
     },
     "/publications": {
         render: function () {
             return m(Body, { comp: PublicationList })
+        }
+    },
+    "/presentations": {
+        render: function () {
+            return m(Body, { comp: ComingSoon })
         }
     }
 })
