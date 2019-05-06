@@ -25,9 +25,9 @@ var Bio = {
         'products so that they provide satisfactory solutions to customers.',
         ' I also work directly with customers to translate requirements into ',
         'product features and implementing them. I actively collaborate with ',
-        'academic instituitions to keep up with cutting edge research and ',
-        'infusing new ideas into products to improving quality, performance ',
-        'and customer satisfaction.'],
+        'academia to keep up with cutting edge research and infuse new ideas ',
+        'into products to improving quality, performance and customer ',
+        'satisfaction.'],
 
     research: [
         'I am currently interested in solving using a mix of large scale ',
