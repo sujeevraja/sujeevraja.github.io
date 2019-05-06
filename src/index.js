@@ -5,6 +5,7 @@ var Body = require("./views/Body")
 // views
 var BioBox = require("./views/BioBox")
 var ExperienceBox = require("./views/ExperienceBox")
+var EducationBox = require("./views/EducationBox")
 var ComingSoon = require("./views/ComingSoon")
 var PublicationBox = require("./views/PublicationBox")
 
@@ -47,7 +48,7 @@ m.route(document.body, "/", {
     },
     "/education": {
         render: function () {
-            return m(Body, { comp: ComingSoon })
+            return m(Body, { comp: EducationBox })
         }
     },
     "/publications": {
