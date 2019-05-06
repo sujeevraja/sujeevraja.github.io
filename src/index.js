@@ -8,6 +8,7 @@ var ExperienceBox = require("./views/ExperienceBox")
 var EducationBox = require("./views/EducationBox")
 var ComingSoon = require("./views/ComingSoon")
 var PublicationBox = require("./views/PublicationBox")
+var TeachingBox = require("./views/TeachingBox")
 
 /*
 Link for documentation on Tachyons styles used:
@@ -56,9 +57,9 @@ m.route(document.body, "/", {
             return m(Body, { comp: PublicationBox })
         }
     },
-    "/presentations": {
+    "/teaching": {
         render: function () {
-            return m(Body, { comp: ComingSoon })
+            return m(Body, { comp: TeachingBox })
         }
     }
 })
