@@ -32,8 +32,7 @@ module.exports = {
             new Link('Bio', '/'),
             new Link('Experience', '/#!/experience'),
             new Link('Education', '/#!/education'),
-            new Link('Publications', '/#!/publications'),
-            new Link('Presentations', '/#!/presentations'),]
+            new Link('Publications', '/#!/publications'),]
 
         var sidebarBoxes = links.map(function (link) {
             return m(SidebarBox, { link: link })

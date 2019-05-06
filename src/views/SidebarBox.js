@@ -6,7 +6,7 @@ module.exports = {
         var name = link.name
         var route = link.route
         return m('a', {
-            class: 'link w-100 pa3 mt2 bw0 br3 bg-orange white underline-hover',
+            class: 'w-100 pa3 mt2 bw0 br3 tl bg-orange no-underline white dim',
             href: route
         }, name)
 
