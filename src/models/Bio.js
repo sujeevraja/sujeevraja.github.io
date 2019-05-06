@@ -30,10 +30,9 @@ var Bio = {
         'satisfaction.'],
 
     research: [
-        'I am currently interested in solving using a mix of large scale ',
-        'optimization techniques and heuristics to achieve reasonable ',
-        'solutions to real-world problems quickly. Techniques I incorporate ',
-        'include ',
+        'I currently use a mix of large scale optimization techniques and ',
+        'heuristics to achieve reasonable solutions to real-world problems ',
+        'quickly. Techniques I incorporate include ',
         m('a', { href: 'https://en.wikipedia.org/wiki/Column_generation' },
             'Column generation'),
         ', ',
@@ -41,7 +40,11 @@ var Bio = {
             'Benders decomposition'),
         ' and metaheuristics such as ',
         m('a', { href: 'https://en.wikipedia.org/wiki/Variable_neighborhood_search' },
-            'Variable neighborhood search.')
+            'Variable neighborhood search.'),
+        ' I have also done theoretical research on finding new strong ',
+        m('a', { href: 'https://en.wikipedia.org/wiki/Cutting-plane_method' },
+            'cutting planes'),
+        ' for linear and non-linear optimization problems.'
     ],
 
     software: [
