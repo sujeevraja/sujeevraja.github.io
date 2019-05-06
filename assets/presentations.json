@@ -1,79 +1,84 @@
 [
     {
+        "title": "Column Generation Algorithm for Risk-averse Two-stage Stochastic Programs",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Phoenix, AZ",
+        "date": "November 2018",
+        "presenter": "Saravanan Venkatachalam"
+    },
+    {
+        "title": "Risk Averse Model for Fleet Assignments in Airlines",
+        "type": "invited talk",
+        "location": "INFORMS Optimizaiton Sociey Conference, Denver, CO",
+        "date": "March 2018",
+        "presenter": "Saravanan Venkatachalam"
+    },
+    {
         "title": "Airline Disruption Control With Crew Recovery",
         "type": "invited talk",
         "location": "Oklahoma State University, Stillwater, OK",
-        "date": "August 2016",
-        "presented": "true"
+        "date": "August 2016"
     },
     {
         "title": "Deadhead selection strategies for crew recovery",
         "type": "poster",
         "location": "INFORMS Annual Meeting, Philadelphia, PA",
-        "date": "November 2015",
-        "presented": "true"
+        "date": "November 2015"
     },
     {
         "title": "Airline Operations Recovery",
         "type": "invited talk",
         "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
-        "date": "October 2014",
-        "presented": "true"
+        "date": "October 2014"
     },
     {
         "title": "Introduction to CPLEX",
         "type": "invited talk",
         "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
-        "date": "November 2012",
-        "presented": "true"
+        "date": "November 2012"
     },
     {
         "title": "n-step Conic MIR and Mixed n-step MIR",
         "type": "invited talk",
         "location": "Mixed Integer Programming workshop, UC Davis, CA",
-        "date": "07 January 2012",
-        "presented": "false"
+        "date": "January 2012",
+        "presenter": "Kiavash Kianfar"
     },
     {
         "title": "Mixing n-step MIR Inequalities",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Charlotte, NC",
-        "date": "November 2011",
-        "presented": "true"
+        "date": "November 2011"
     },
     {
         "title": "n-step Conic Mixed Integer Rounding Cuts",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Charlotte, NC",
-        "date": "November 2011",
-        "presented": "true"
+        "date": "November 2011"
     },
     {
         "title": "A Polyhedral Study of the Triplet Formulation for Single Row Facility Layout Problem",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Austin, TX",
-        "date": "November 2010",
-        "presented": "true"
+        "date": "November 2010"
     },
     {
         "title": "AMPL, CPLEX and C callable library",
         "type": "invited talk",
         "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
-        "date": "October 2010",
-        "presented": "true"
+        "date": "October 2010"
     },
     {
         "title": "A Polyhedral Study of Triplet Formulation for Single Row Facility Layout Problem",
         "type": "poster",
         "location": "Mixed Integer Programming workshop, Gergia Tech, Atlanta, GA",
-        "date": "July 2010",
-        "presented": "true"
+        "date": "July 2010"
     },
     {
         "title": "Assessing the Impact of Alternate Objectives on the Spatial Properties of solutions in CIKR defense",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, San Diego, CA",
         "date": "October 2009",
-        "presented": "false"
+        "presenter": "Justin Yates"
     }
 ]

@@ -10,9 +10,9 @@ var presentationView = function (pres) {
         ', ', pres.date,
     ]
 
-    if (pres.presented == "false") {
+    if (pres.hasOwnProperty("presenter") === true) {
         children.push(m('br'))
-        children.push(' (presented by co-author)')
+        children.push('(presenter: ' + pres.presenter + ')')
     }
 
     children.push('.')
