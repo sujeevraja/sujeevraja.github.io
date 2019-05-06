@@ -13,6 +13,15 @@ module.exports = {
         return [
             desc,
             m('div', [m('i', 'Email: '), Bio.email]),
+            m('br'),
+            m('h1', { class: 'f4 lh-title' }, 'Responsiblities at Sabre'),
+            Bio.responsibilities,
+            m('br'),
+            m('br'),
+            m('h1', { class: 'f4 lh-title' }, 'Research'),
+            Bio.research,
+            m('br'),
+            m('br'),
             m('h1', { class: 'f4 lh-title' }, 'Interests'),
             interests
         ]
