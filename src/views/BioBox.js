@@ -2,6 +2,7 @@ var m = require("mithril").default
 var Bio = require("../models/Bio")
 
 module.exports = {
+    title: 'Bio',
     view: function () {
         var desc = m('p', Bio.description)
 

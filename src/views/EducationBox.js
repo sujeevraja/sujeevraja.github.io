@@ -18,6 +18,7 @@ var educationView = function (ed) {
 
 module.exports = {
     oninit: Education.loadList,
+    title: "Education",
     view: function () {
         return m('ul', { class: 'fa-ul' }, Education.list.map(educationView))
     }

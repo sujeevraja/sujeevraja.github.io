@@ -25,6 +25,7 @@ var publicationView = function (pub) {
 
 module.exports = {
     oninit: Publication.loadList,
+    title: 'Publications',
     view: function () {
         return m("ul", {}, Publication.list.map(publicationView))
     }
