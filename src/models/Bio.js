@@ -49,7 +49,7 @@ var Bio = {
 
     software: [
         'I write production code in C++ and rely on Python3 for scripting. ',
-        'I have written code in C++, Java, Jula, Kotlin and Python for my ',
+        'I have written code in C++, Java, Julia, Kotlin and Python for my ',
         'research work. I use ',
         m('a', { href: 'https://www.ibm.com/analytics/cplex-optimizer' },
             'CPLEX'),
