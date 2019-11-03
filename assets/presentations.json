@@ -1,10 +1,19 @@
 [
     {
+        "title": "A Team Orienteering Problem for Fixed-Wing Drones",
+        "type": "invited talk",
+        "location": "Arizona State University, Tempe, AZ",
+        "date": "November 2019",
+        "presenter": "Sujeevraja Sanjeevi",
+        "slides": "fixed_wing_top_presentation.pdf"
+    },
+    {
         "title": "Managing Airline Delay Uncertainty By Adjusting Connection Slacks: a Stochastic Programming Approach",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Seattle, WA",
         "date": "October 2019",
-        "presenter": "Sujeevraja Sanjeevi"
+        "presenter": "Sujeevraja Sanjeevi",
+        "slides": "stochastic_flight_scheduling_presentation.pdf"
     },
     {
         "title": "Airline Schedule Planning Using Risk-Averse Two-Stage Stochastic Programming Approach",
@@ -62,7 +71,8 @@
         "title": "Mixing n-step MIR Inequalities",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Charlotte, NC",
-        "date": "November 2011"
+        "date": "November 2011",
+        "slides": "n_step_mixing_presentation.pdf"
     },
     {
         "title": "n-step Conic Mixed Integer Rounding Cuts",

@@ -12,7 +12,12 @@ var presentationView = function (pres) {
 
     if (pres.hasOwnProperty("presenter") === true) {
         children.push(m('br'))
-        children.push('(presenter: ' + pres.presenter + ')')
+        children.push('presenter: ' + pres.presenter)
+    }
+
+    if (pres.hasOwnProperty("slides")) {
+        var slidesLink = "assets/slides/" + pres.slides
+        children.push(m('a', {"href": slidesLink}, "[slides]"))
     }
 
     children.push('.')
