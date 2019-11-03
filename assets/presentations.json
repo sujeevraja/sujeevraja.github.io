@@ -71,7 +71,8 @@
         "title": "Mixing n-step MIR Inequalities",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Charlotte, NC",
-        "date": "November 2011"
+        "date": "November 2011",
+        "slides": "n_step_mixing_presentation.pdf"
     },
     {
         "title": "n-step Conic Mixed Integer Rounding Cuts",
