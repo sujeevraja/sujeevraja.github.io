@@ -16,6 +16,7 @@ var presentationView = function (pres) {
     }
 
     if (pres.hasOwnProperty("slides")) {
+        children.push(' ')
         var slidesLink = "assets/slides/" + pres.slides
         children.push(m('a', {"href": slidesLink}, "[slides]"))
     }
