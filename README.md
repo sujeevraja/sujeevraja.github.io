@@ -4,9 +4,8 @@ This repository contains source code for my [homepage](https://sujeevraja.github
 
 ## Local testing
 
-To view the page locally, use `npm run build`. This bundles the Javascript files into a single file.
-Then, run a local server. With python, the command is `python3 -m http.server`. Then, the page can
-be viewed at the address `https://localhost:8000` in a browser.
+To view the page locally, use `npm run bs`. This launches a browser serving
+index.html at `https://localhost:3000`.
 
 ## Deploying
 
