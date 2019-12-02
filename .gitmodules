@@ -1,3 +1,0 @@
-[submodule "deploy"]
-	path = deploy
-	url = git@github.com:sujeevraja/sujeevraja.github.io.git
