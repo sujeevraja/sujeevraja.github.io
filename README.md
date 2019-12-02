@@ -1,11 +1,15 @@
 # homepage-repo
 
-This repository contains source code for my [homepage](https://sujeevraja.github.io).
+Source code for my [homepage](https://sujeevraja.github.io).
 
-## Local testing
+## Testing
+First, run `npm run start`. This command rebuilds "bin/app.js" whenever any
+JS file in the "src/" folder changes.
 
-To view the page locally, use `npm run bs`. This launches a browser serving
-index.html at `https://localhost:3000`.
+Next, run `npm run bs`. This launches the default browser and serves
+"index.html" at `https://localhost:3000`. This command uses Browsersync to
+reload the webpage whenever "index.html", "bin/app.js" or any asset files
+change.
 
 ## Deploying
 

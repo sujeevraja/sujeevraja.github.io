@@ -34,44 +34,22 @@ Link for documentation on Tachyons styles used:
     white: text color
 */
 
-// Only components created with mount and their subcomponents will be redrawn.
-// We need redraws after file loads and so need a component for the body.
-// m.mount(document.body, Body);
-
-m.route(document.body, "/", {
-    "/": {
+// Details on how the following route is designed can be founde at:
+// https://mithril.js.org/route.html#advanced-component-resolution
+function buildRouteResolver(component) {
+    return {
         render: function () {
-            return m(Body, { comp: BioBox })
-        }
-    },
-    "/experience": {
-        render: function () {
-            return m(Body, { comp: ExperienceBox })
-        }
-    },
-    "/education": {
-        render: function () {
-            return m(Body, { comp: EducationBox })
-        }
-    },
-    "/publications": {
-        render: function () {
-            return m(Body, { comp: PublicationBox })
-        }
-    },
-    "/presentations": {
-        render: function () {
-            return m(Body, { comp: PresentationBox })
-        }
-    },
-    "/teaching": {
-        render: function () {
-            return m(Body, { comp: TeachingBox })
-        }
-    },
-    "/activities": {
-        render: function () {
-            return m(Body, { comp: ActivitiesBox })
+            return m(Body, { title: component.title }, m(component))
         }
     }
+}
+
+m.route(document.body, "/", {
+    "/": buildRouteResolver(BioBox),
+    "/experience": buildRouteResolver(ExperienceBox),
+    "/education": buildRouteResolver(EducationBox),
+    "/publications": buildRouteResolver(PublicationBox),
+    "/presentations": buildRouteResolver(PresentationBox),
+    "/teaching": buildRouteResolver(TeachingBox),
+    "/activities": buildRouteResolver(ActivitiesBox)
 })
