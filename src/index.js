@@ -38,10 +38,8 @@ Link for documentation on Tachyons styles used:
 // https://mithril.js.org/route.html#advanced-component-resolution
 function buildRouteResolver(component) {
     return {
-        render: function() {
-            return m(Body, {
-                title: component.title
-            }, m(component))
+        render: function () {
+            return m(Body, { title: component.title }, m(component))
         }
     }
 }
