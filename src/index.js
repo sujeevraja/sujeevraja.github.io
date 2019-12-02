@@ -39,7 +39,9 @@ Link for documentation on Tachyons styles used:
 function buildRouteResolver(component) {
     return {
         render: function() {
-            return m(Body, m(component))
+            return m(Body, {
+                title: component.title
+            }, m(component))
         }
     }
 }
@@ -48,8 +50,8 @@ m.route(document.body, "/", {
     "/": buildRouteResolver(BioBox),
     "/experience": buildRouteResolver(ExperienceBox),
     "/education": buildRouteResolver(EducationBox),
-    "/publications": buildRouteResolver(PublicationBox)
-    "/presentations": buildRouteResolver(PresentationBox)
-    "/teaching": buildRouteResolver(TeachingBox)
+    "/publications": buildRouteResolver(PublicationBox),
+    "/presentations": buildRouteResolver(PresentationBox),
+    "/teaching": buildRouteResolver(TeachingBox),
     "/activities": buildRouteResolver(ActivitiesBox)
 })
