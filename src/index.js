@@ -1,4 +1,4 @@
-import m from "mithril";
+var m = require("mithril")
 
 var Body = require("./views/Body")
 

@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var Publication = require("../models/Publication")
 
 var publicationView = function (pub) {

@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var Presentation = require("../models/Presentation")
 
 var presentationView = function (pres) {
@@ -18,7 +18,7 @@ var presentationView = function (pres) {
     if (pres.hasOwnProperty("slides")) {
         children.push(' ')
         var slidesLink = "assets/slides/" + pres.slides
-        children.push(m('a', {"href": slidesLink}, "[slides]"))
+        children.push(m('a', { "href": slidesLink }, "[slides]"))
     }
 
     children.push('.')

@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var SidebarBox = require("./SidebarBox")
 
 var Link = function (name, route) {
