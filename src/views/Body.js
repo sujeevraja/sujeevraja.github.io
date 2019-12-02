@@ -2,6 +2,11 @@ var m = require("mithril").default
 var Sidebar = require("./Sidebar")
 var Content = require("./Content")
 
+// For further details about this design, especially the use of "vnode", check
+// the "Wrapping a layout component" section in the following link:
+//
+// https://mithril.js.org/route.html#advanced-component-resolution
+
 var view = function (vnode) {
     var header = m('div', { class: 'bg-dark-green white pa3 tc' },
         m('a', { href: '/', class: 'no-underline white f4' }, 'Sujeevraja "Sujeev" Sanjeevi'))
@@ -20,7 +25,7 @@ var view = function (vnode) {
         m('div', header),
         m('div', { class: 'flex items-start' }, [
             m(Sidebar), // m(component) consumes the component to generate a view.
-            m(Content, { comp: vnode.attrs.comp }),]),
+            m(Content, vnode.children)]),
         m('div', footer)
     ])
 }
