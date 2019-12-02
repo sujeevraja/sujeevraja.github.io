@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 
 module.exports = {
     title: 'Teaching',

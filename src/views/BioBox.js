@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var Bio = require("../models/Bio")
 
 module.exports = {

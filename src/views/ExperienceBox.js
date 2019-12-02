@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var Experience = require("../models/Experience")
 
 var experienceView = function (ex) {

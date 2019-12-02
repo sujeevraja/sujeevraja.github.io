@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 var Sidebar = require("./Sidebar")
 var Content = require("./Content")
 
@@ -17,7 +17,7 @@ var view = function (vnode) {
 
     var body = m('div',
         { class: 'flex items-start' },
-        [ m(Sidebar), m(Content, vnode.attrs, vnode.children) ])
+        [m(Sidebar), m(Content, vnode.attrs, vnode.children)])
 
     var footer = m('div',
         { class: 'fixed tc left-0 bottom-0 right-0 bg-light-gray gray pa4' },
@@ -33,7 +33,7 @@ var view = function (vnode) {
     // m(component) consumes the component to generate a view.
     return m('div',
         { class: 'helvetica' },
-        [ header, body, footer ])
+        [header, body, footer])
 }
 
 module.exports = {

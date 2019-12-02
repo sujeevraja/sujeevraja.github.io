@@ -1,4 +1,4 @@
-var m = require("mithril").default
+var m = require("mithril")
 
 module.exports = {
     view: function (vnode) {
@@ -8,6 +8,6 @@ module.exports = {
 
         return m('div',
             { class: 'shadow-1 br3 w-100 pa3 mt2 ml3 mr2 mb6', id: 'content' },
-            [ title, vnode.children ])
+            [title, vnode.children])
     }
 }
