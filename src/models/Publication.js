@@ -11,7 +11,7 @@ var Publication = {
         }).then(function (result) {
             Publication.list = result
             Publication.loaded = true
-            console.log("Publication.loadList call completed.")
+            console.log("Publication.loadList completed.")
             // mithril redraws after this function m.request then functions
             // complete. So, we don't need to call m.redraw() here.
         })

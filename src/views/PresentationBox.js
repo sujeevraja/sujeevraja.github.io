@@ -26,7 +26,9 @@ var presentationView = function (pres) {
 }
 
 module.exports = {
-    oninit: Presentation.loadList,
+    oninit: function() {
+        if (!Presentation.loaded) Presentation.loadList()
+    },
     title: 'Presentations',
     view: function () {
         return m("ul", Presentation.list.map(presentationView))
