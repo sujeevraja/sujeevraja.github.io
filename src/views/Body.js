@@ -15,9 +15,13 @@ var view = function (vnode) {
         { class: 'bg-dark-green white pa3 tc' },
         link)
 
+    var content = m(Content, {
+        title: vnode.attrs.title
+    }, vnode.children)
+
     var body = m('div',
         { class: 'flex items-start' },
-        [m(Sidebar), m(Content, vnode.attrs, vnode.children)])
+        [m(Sidebar), content])
 
     var footer = m('div',
         { class: 'fixed tc left-0 bottom-0 right-0 bg-light-gray gray pa4' },

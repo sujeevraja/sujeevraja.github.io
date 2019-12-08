@@ -13,7 +13,9 @@ var experienceView = function (ex) {
 }
 
 module.exports = {
-    oninit: Experience.loadList,
+    oninit: function() {
+        if (!Experience.loaded) Experience.loadList()
+    },
     title: 'Work Experience',
     view: function () {
         return m("ul", {}, Experience.list.map(experienceView))
