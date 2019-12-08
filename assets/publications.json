@@ -1,15 +1,20 @@
 [
     {
-        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi",
-        "title": "A Team Orienteering Problem for Fixed-Wing Drones"
-    },
-    {
         "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Sivakumar Rathinam, Joao Sousa",
-        "title": "Path planning for underwater vehicles with uncertain localization errors - from offline to online algorithms"
+        "title": "Path planning for underwater vehicles with uncertain localization errors - from offline to online algorithms",
+        "notes": "in preparation"
     },
     {
         "authors": "Sujeevraja Sanjeevi, Saravanan Venkatachalam",
-        "title": "Managing airline delay uncertainty by adjusting connection slacks: a two-stage stochastic programming approach"
+        "title": "Robust flight schedules with stochastic programming",
+        "notes": "in preparation"
+    },
+    {
+        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi",
+        "title": "A Team Orienteering Problem for Fixed-Wing Drones",
+        "journal": "Transportation Research Paart B: Methodological",
+        "year": "2019",
+        "notes": "under review"
     },
     {
         "authors": "Sujeevraja Sanjeevi, Sina Masihabadi, Kiavash Kianfar",
