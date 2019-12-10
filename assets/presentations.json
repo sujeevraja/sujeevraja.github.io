@@ -103,7 +103,8 @@
         "title": "A Polyhedral Study of Triplet Formulation for Single Row Facility Layout Problem",
         "type": "poster",
         "location": "Mixed Integer Programming workshop, Gergia Tech, Atlanta, GA",
-        "date": "July 2010"
+        "date": "July 2010",
+        "pdf": "posters/srflp_poster.pdf"
     },
     {
         "title": "Assessing the Impact of Alternate Objectives on the Spatial Properties of solutions in CIKR defense",
