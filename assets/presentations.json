@@ -85,7 +85,8 @@
         "title": "n-step Conic Mixed Integer Rounding Cuts",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Charlotte, NC",
-        "date": "November 2011"
+        "date": "November 2011",
+        "pdf": "slides/n_step_conic_presentation.pdf"
     },
     {
         "title": "A Polyhedral Study of the Triplet Formulation for Single Row Facility Layout Problem",
