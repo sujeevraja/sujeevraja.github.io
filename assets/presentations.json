@@ -61,6 +61,13 @@
         "date": "November 2012"
     },
     {
+        "title": "A New Perspective on Generating Facets for Polyhedral Second-Order Conic Sets",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Phoenix, AZ",
+        "date": "October 2012",
+        "pdf": "slides/psoc_presentation.pdf"
+    },
+    {
         "title": "Mixed n-step MIR Inequalities: Facets for the n-mixing Set",
         "type": "poster",
         "location": "Mixed Integer Programming workshop, UC Davis, Davis, CA",
