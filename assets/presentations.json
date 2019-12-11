@@ -92,7 +92,8 @@
         "title": "A Polyhedral Study of the Triplet Formulation for Single Row Facility Layout Problem",
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Austin, TX",
-        "date": "November 2010"
+        "date": "November 2010",
+        "pdf": "slides/srflp_presentation.pdf"
     },
     {
         "title": "AMPL, CPLEX and C callable library",
