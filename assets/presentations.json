@@ -55,10 +55,11 @@
         "date": "October 2014"
     },
     {
-        "title": "Introduction to CPLEX",
+        "title": "AMPL, CPLEX, C Callable Library and Concert Technology",
         "type": "invited talk",
         "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
-        "date": "November 2012"
+        "date": "November 2012",
+        "pdf": "slides/ampl_cplex_presentation.pdf"
     },
     {
         "title": "A New Perspective on Generating Facets for Polyhedral Second-Order Conic Sets",
