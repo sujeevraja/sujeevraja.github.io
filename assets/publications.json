@@ -1,5 +1,10 @@
 [
     {
+        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Harsha Nagarajan",
+        "title": "A sequence of MILP and LP Relaxations for nonlinear univariate functions",
+        "notes": "in preparation"
+    },
+    {
         "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Sivakumar Rathinam, Joao Sousa",
         "title": "Path planning for underwater vehicles with uncertain localization errors - from offline to online algorithms",
         "notes": "in preparation"
