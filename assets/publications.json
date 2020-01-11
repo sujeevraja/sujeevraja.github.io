@@ -19,7 +19,13 @@
         "title": "A Team Orienteering Problem for Fixed-Wing Drones",
         "journal": "European Journal of Operational Research",
         "year": "2019",
-        "notes": "under review"
+        "notes": "under review",
+        "links": [
+            {
+                "name": "arXiv",
+                "url": "https://arxiv.org/abs/1912.04353v2"
+            }
+        ]
     },
     {
         "authors": "Sujeevraja Sanjeevi, Sina Masihabadi, Kiavash Kianfar",

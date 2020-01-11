@@ -1,5 +1,6 @@
 var m = require("mithril")
 var Publication = require("../models/Publication")
+var Link = require("./Link")
 
 var publicationView = function (pub) {
     var children = [
@@ -30,6 +31,12 @@ var publicationView = function (pub) {
     if (pub.hasOwnProperty("year")) {
         children.push(", ")
         children.push(pub.year)
+    }
+    if (pub.hasOwnProperty("links")) {
+        pub.links.forEach(function(link) {
+            children.push(" ")
+            children.push(m(Link, link))
+        })
     }
     children.push(".")
     return m("li", { class: "pa2" }, children)
