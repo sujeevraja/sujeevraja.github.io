@@ -33,10 +33,14 @@ var publicationView = function (pub) {
         children.push(pub.year)
     }
     if (pub.hasOwnProperty("links")) {
+        children.push(" [")
+        var first = true
         pub.links.forEach(function(link) {
-            children.push(" ")
+            if (first) first = false
+            else children.push(" ")
             children.push(m(Link, link))
         })
+        children.push("]")
     }
     children.push(".")
     return m("li", { class: "pa2" }, children)
