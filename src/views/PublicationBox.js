@@ -5,12 +5,14 @@ var Link = require("./Link")
 var publicationView = function (pub) {
     var children = [
         m('i', pub.title),
-        ", ",
+        m("br"),
         pub.authors]
 
-    if (pub.hasOwnProperty("journal")) {
-        children.push(", ")
-        children.push(m('b', pub.journal))
+    var journalExists = pub.hasOwnProperty("journal")
+    if (journalExists) {
+        children.push(m("br"))
+        // children.push(m('b', pub.journal))
+        children.push(pub.journal)
     }
     if (pub.hasOwnProperty("volume")) {
         children.push(", Vol ")
@@ -25,24 +27,24 @@ var publicationView = function (pub) {
         children.push(pub.pages)
     }
     if (pub.hasOwnProperty("notes")){
-        children.push(", ")
+        if (journalExists) children.push(", ")
+        else children.push(m("br"))
         children.push(pub.notes)
     }
     if (pub.hasOwnProperty("year")) {
         children.push(", ")
         children.push(pub.year)
     }
+    children.push(".")
     if (pub.hasOwnProperty("links")) {
-        children.push(" [")
+        children.push(m("br"))
         var first = true
         pub.links.forEach(function(link) {
             if (first) first = false
             else children.push(" ")
             children.push(m(Link, link))
         })
-        children.push("]")
     }
-    children.push(".")
     return m("li", { class: "pa2" }, children)
 };
 
