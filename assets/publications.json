@@ -14,8 +14,15 @@
     {
         "authors": "Sujeevraja Sanjeevi, Saravanan Venkatachalam",
         "title": "Robust flight schedules with stochastic programming",
-        "notes": "In preparation",
-        "year": "2020"
+        "journal": "Annals of Operational Research",
+        "notes": "under review",
+        "year": "2020",
+        "links": [
+            {
+                "name": "arXiv",
+                "url": "https://arxiv.org/abs/2001.08548"
+            }
+        ]
     },
     {
         "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi",
