@@ -7,7 +7,11 @@ module.exports = {
             vnode.attrs.title)
 
         return m('div',
-            { class: 'shadow-1 br3 w-100 pa3 mt2 ml3 mr2 mb6', id: 'content' },
+            {
+                class: [
+                    'mw7' // maximum width
+                ].join(' '),
+            },
             [title, vnode.children])
     }
 }
