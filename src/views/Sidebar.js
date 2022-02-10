@@ -14,18 +14,13 @@ module.exports = {
                     m('i', { class: 'ai ai-google-scholar-square ai-2x' }))),
 
             m('div', { class: 'w-third pa1 dim' },
+                m('a', { href: 'https://github.com/sujeevraja' },
+                    m('i', { class: 'fab fa-github fa-2x' }))),
+
+            m('div', { class: 'w-third pa1 dim' },
                 m('a', { href: 'https://www.linkedin.com/in/sujeevraja-sanjeevi-2b434242' },
                     m('i', { class: 'fab fa-linkedin-in fa-2x' }))),
 
-            m('div', { class: 'w-third pa1 dim' },
-                m('a', { href: 'https://github.com/sujeevraja' },
-                    m('i', { class: 'fab fa-github fa-2x' })))
-        ])
-
-        var iconSet2 = m('div', { class: 'w-100 mt2 flex' }, [
-            m('div', { class: 'w-third pa1 dim' },
-                m('a', { href: 'https://www.researchgate.net/profile/Sujeevraja_Sanjeevi' },
-                    m('i', { class: 'fab fa-researchgate fa-2x' })))
         ])
 
         var links = [
@@ -41,8 +36,7 @@ module.exports = {
         var sidebarBoxes = links.map(function (link) {
             return m(SidebarBox, { link: link })
         })
-
-        sidebarBoxes = sidebarBoxes.concat([iconSet1, iconSet2])
+        sidebarBoxes.push(iconSet1)
         return m('div', { class: 'flex flex-column w6' }, sidebarBoxes)
     }
 }

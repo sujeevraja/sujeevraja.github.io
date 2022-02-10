@@ -2,32 +2,27 @@ var m = require("mithril")
 
 var Bio = {
     description: [
-        'I am currently part of the ',
-        m('i', 'Airline Solutions Operations Research (ASOR)'),
-        ' group at ',
-        m('a', { href: 'https://www.sabre.com/' }, 'Sabre'),
-        '. I lead the development of ',
-        m('i', 'Recovery Manager Ops'),
-        ', a large-scale optimization solver ',
-        'for aircraft disruption management.',
-        ' I previously worked on ',
-        m('i', 'Recovery Manager Crew'),
-        ', a large-scale crew recovery solver.',
-        m('br'),
+        'I am an entrepreneur with expertise in leadership roles that require',
+        ' working with teams of scientists and developers to bring complex ',
+        'software solutions to market. I am currently co-founder and CTO at ',
+        m('a', { href: 'https://opslab.com' }, 'OpsLab'),
+        ', where I lead scientific research and the development of ',
+        'cloud-native products that use operations research and machine ',
+        'learning to automate the solution of operational problems in ',
+        'multiple domains. I am also an active researcher and software ',
+        'engineer. I can be reached by email at ',
+        m('em', 'sujeev [dot] sanjeevi [at] gmail.'),
     ],
 
-    email: 'sujeev.sanjeevi@gmail.com',
-
-    responsibilities: [
-        'I help build, maintain and enhance optimization solvers that ',
-        'resolve airline disruptions with minimal impact to operations. ',
-        'I coordinate with development and delivery teams to calibrate ',
-        'products so that they provide satisfactory solutions to customers.',
-        ' I also work directly with customers to translate requirements into ',
-        'product features and implementing them. I actively collaborate with ',
-        'academia to keep up with cutting edge research and infuse new ideas ',
-        'into products to improving quality, performance and customer ',
-        'satisfaction.'],
+    // responsibilities: [
+    //     'I help build, maintain and enhance optimization solvers that resolve airline disruptions with minimal impact to operations. ',
+    //     'I coordinate with development and delivery teams to calibrate ',
+    //     'products so that they provide satisfactory solutions to customers.',
+    //     ' I also work directly with customers to translate requirements into ',
+    //     'product features and implementing them. I actively collaborate with ',
+    //     'academia to keep up with cutting edge research and infuse new ideas ',
+    //     'into products to improving quality, performance and customer ',
+    //     'satisfaction.'],
 
     research: [
         'I currently use a mix of large scale optimization techniques and ',
