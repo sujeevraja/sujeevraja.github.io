@@ -2,7 +2,7 @@ var m = require("mithril")
 var Bio = require("../models/Bio")
 
 module.exports = {
-    title: 'Bio',
+    title: 'About me',
     view: function () {
         var desc = m('p', Bio.description)
 
@@ -10,14 +10,14 @@ module.exports = {
             return m('li', interest)
         }))
 
-        return [
+        elements = [
             desc,
-            m('div', [m('i', 'Email: '), Bio.email]),
+            // m('div', [m('i', 'Email: '), Bio.email]),
             m('br'),
-            m('h1', { class: 'f4 lh-title' }, 'Responsiblities at Sabre'),
-            Bio.responsibilities,
-            m('br'),
-            m('br'),
+            // m('h1', { class: 'f4 lh-title' }, 'Responsiblities at Sabre'),
+            // // Bio.responsibilities,
+            // m('br'),
+            // m('br'),
             m('h1', { class: 'f4 lh-title' }, 'Research'),
             Bio.research,
             m('br'),
@@ -27,5 +27,6 @@ module.exports = {
             m('br'),
             m('h1', { class: 'f4 lh-title' }, 'Software I use'),
             Bio.software]
+        return elements
     }
 }
