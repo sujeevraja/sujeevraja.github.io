@@ -1,11 +1,18 @@
 [
     {
+        "role": "Co-founder and CTO",
+        "organization": "OpsLab",
+        "location": "Austin, TX, USA",
+        "start": "February 2022",
+        "end": "Present"
+    },
+    {
         "role": "Team Lead Operations Research",
-        "group": "Airline Solutions Operations Research",
+        "group": "Sabre Labs",
         "organization": "Sabre",
         "location": "Southlake, TX, USA",
         "start": "November 2017",
-        "end": "present"
+        "end": "July 2021"
     },
     {
         "role": "Senior Operations Research",
