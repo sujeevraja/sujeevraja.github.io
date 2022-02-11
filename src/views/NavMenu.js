@@ -40,7 +40,7 @@ module.exports = {
                     // 'mb3',
                     // 'mb5-ns',
                     // 'bt',
-                    'overflow-auto' // add scrollbars when needed
+                    'overflow-auto', // add scrollbars when needed
                 ].join(' ')
             },
             nav

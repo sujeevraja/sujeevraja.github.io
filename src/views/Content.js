@@ -9,7 +9,7 @@ module.exports = {
         return m('div',
             {
                 class: [
-                    'mw7' // maximum width
+                    'mw7', // maximum width
                 ].join(' '),
             },
             [title, vnode.children])

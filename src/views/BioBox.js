@@ -1,32 +1,23 @@
-var m = require("mithril")
-var Bio = require("../models/Bio")
+let m = require("mithril")
+let Bio = require("../models/Bio")
 
 module.exports = {
     title: 'About me',
     view: function () {
-        var desc = m('p', Bio.description)
-
-        var interests = m('ul', Bio.interests.map(function (interest) {
-            return m('li', interest)
+        const codeSamples = m('ul', Bio.codeSamples.map((sample) => {
+            return m("li", sample)
         }))
 
-        elements = [
-            desc,
-            // m('div', [m('i', 'Email: '), Bio.email]),
-            m('br'),
-            // m('h1', { class: 'f4 lh-title' }, 'Responsiblities at Sabre'),
-            // // Bio.responsibilities,
-            // m('br'),
-            // m('br'),
+        return [
+            m('p', Bio.description),
+            m('h1', { class: 'f4 lh-title' }, 'Experience'),
+            Bio.experience,
             m('h1', { class: 'f4 lh-title' }, 'Research'),
             Bio.research,
-            m('br'),
-            m('br'),
-            m('h1', { class: 'f4 lh-title' }, 'Interests'),
-            interests,
-            m('br'),
-            m('h1', { class: 'f4 lh-title' }, 'Software I use'),
-            Bio.software]
-        return elements
+            m('h1', { class: 'f4 lh-title' }, 'Software'),
+            Bio.software,
+            m('h1', { class: 'f4 lh-title' }, 'Code Samples'),
+            codeSamples,
+        ]
     }
 }
