@@ -1,4 +1,4 @@
-var m = require("mithril").default
+const m = require("mithril")
 
 module.exports = {
     view: function () {

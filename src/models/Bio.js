@@ -1,6 +1,6 @@
-var m = require("mithril")
+const m = require("mithril")
 
-var Bio = {
+const Bio = {
     description: [
         'I am an entrepreneur with expertise in leadership roles that require',
         ' working with teams of scientists and developers to bring complex ',
