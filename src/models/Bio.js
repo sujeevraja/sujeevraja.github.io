@@ -1,79 +1,68 @@
-var m = require("mithril")
+const m = require("mithril")
 
-var Bio = {
+const Bio = {
     description: [
-        'I am currently part of the ',
-        m('i', 'Airline Solutions Operations Research (ASOR)'),
-        ' group at ',
-        m('a', { href: 'https://www.sabre.com/' }, 'Sabre'),
-        '. I lead the development of ',
-        m('i', 'Recovery Manager Ops'),
-        ', a large-scale optimization solver ',
-        'for aircraft disruption management.',
-        ' I previously worked on ',
-        m('i', 'Recovery Manager Crew'),
-        ', a large-scale crew recovery solver.',
-        m('br'),
+        'I am an entrepreneur with expertise in leadership roles that require',
+        ' working with teams of scientists and developers to bring complex ',
+        'software solutions to market. I am currently co-founder and CTO at ',
+        m('a', { href: 'https://www.opslab.com' }, 'OpsLab'),
+        ', where I lead scientific research and the development of ',
+        'cloud-native products that use operations research and machine ',
+        'learning to automate the solution of operational problems in ',
+        'multiple domains. I am also an active researcher and software ',
+        'engineer. I can be reached by email at ',
+        m('em', 'sujeev [dot] sanjeevi [at] gmail.'),
     ],
 
-    email: 'sujeev.sanjeevi@gmail.com',
-
-    responsibilities: [
-        'I help build, maintain and enhance optimization solvers that ',
-        'resolve airline disruptions with minimal impact to operations. ',
-        'I coordinate with development and delivery teams to calibrate ',
-        'products so that they provide satisfactory solutions to customers.',
-        ' I also work directly with customers to translate requirements into ',
-        'product features and implementing them. I actively collaborate with ',
-        'academia to keep up with cutting edge research and infuse new ideas ',
-        'into products to improving quality, performance and customer ',
-        'satisfaction.'],
+    experience: [
+        'After graduation, I spent a year doing post-doctoral research on ',
+        'non-linear optimization models at UC Berkeley. Then, I worked in ',
+        'the operations research team at Sabre for 8 years, developing and ',
+        'later leading the development of optimization solvers to resolve ',
+        'large-scale disruptions of crew and aircraft schedules. I also ',
+        'worked on revenue management with specific focus on doing ',
+        'comparative studies of demand forecasting models.',
+    ],
 
     research: [
-        'I currently use a mix of large scale optimization techniques and ',
-        'heuristics to achieve reasonable solutions to real-world problems ',
-        'quickly. Techniques I incorporate include ',
-        m('a', { href: 'https://en.wikipedia.org/wiki/Column_generation' },
-            'Column generation'),
-        ', ',
-        m('a', { href: 'https://en.wikipedia.org/wiki/Benders_decomposition' },
-            'Benders decomposition'),
-        ' and metaheuristics such as ',
-        m('a', { href: 'https://en.wikipedia.org/wiki/Variable_neighborhood_search' },
-            'Variable neighborhood search.'),
-        ' I have also done theoretical research on finding new strong ',
-        m('a', { href: 'https://en.wikipedia.org/wiki/Cutting-plane_method' },
-            'cutting planes'),
-        ' for linear and non-linear optimization problems.'
+        'My research interests are in optimization, machine learning,',
+        ' and using them together to create practically usable solutions in ',
+        'domains like scheduling and routing. Specifically, I work on ',
+        'applications like airline schedule planning, reactive and ',
+        'predictive schedule disruption management, routing of VTOL and ',
+        'fixed-wing drones, underwater exploration and other transportation ',
+        'problems. All my published research can be found in my ',
+        m('a', {
+            href: 'https://scholar.google.com/citations?user=S2CWoKoAAAAJ&hl=en'
+        }, 'Google Scholar profile'),
+        '.',
     ],
 
     software: [
-        'I write production code in C++ and rely on Python3 for scripting. ',
-        'I have written code in C++, Java, Julia, Kotlin and Python for my ',
-        'research work. I use ',
-        m('a', { href: 'https://www.ibm.com/analytics/cplex-optimizer' },
-            'CPLEX'),
-        ' to solve optimization problems when available and ',
-        m('a', { href: 'https://projects.coin-or.org/Clp' }, 'CLP'),
-        ' or ',
-        m('a', { href: 'https://projects.coin-or.org/Cbc' }, 'CBC'),
-        ' from the ',
-        m('a', { href: 'https://www.coin-or.org/' }, 'COIN-OR'),
-        ' project otherwise. I switch between ',
-        m('a', { href: 'https://www.jetbrains.com/idea/' }, 'Idea'),
-        ', ',
-        m('a', { href: 'https://code.visualstudio.com/' }, 'VSCode'),
-        ', and ',
-        m('a', { href: 'https://www.sublimetext.com/' }, 'Sublime'),
-        ' to write code, but never without a Vim emulation layer.'],
+        'I am fairly agnostic of programming languages, and have written a ',
+        'lot of code in C++, Java, Kotlin, Python and Julia. Most of the ',
+        'production code I currently write is in Kotlin and Python. Among ',
+        'cloud providers, I am most comfortable with AWS, having worked with ',
+        'their products like EMR (to run PySpark jobs), Athena (for data ',
+        'analysis), Lambdas (for small solve jobs) and Fargate (for ',
+        'server-side logic and long-running solver jobs). Some of my code can',
+        ' be found in my ',
+        m('a', {
+            href: 'https://github.com/sujeevraja'
+        }, 'Github profile'),
+        '.'
+    ],
 
-    interests: [
-        "Airline Disruption Management",
-        "Airline Scheduling",
-        "Large Scale Optimization",
-        "Mathematical Programming",
-        "Transportation",
-        "Vehicle Routing"
+    codeSamples: [
+        m('a', {
+            href: 'https://github.com/sujeevraja/fixed-wing-drone-orienteering',
+        }, 'Fixed-wing drone orienteering with parallel branch-and-price (Kotlin)'),
+        m('a', {
+            href: 'https://github.com/sujeevraja/stochastic-flight-scheduler'
+        }, 'A stochastic optimization approach to flight schedule refinement (Java)'),
+        m('a', {
+            href: 'https://github.com/sujeevraja/PolyhedralRelaxations.jl'
+        }, 'Solving non-linear optimization problems with linear relaxations (Julia)'),
     ]
 }
 
