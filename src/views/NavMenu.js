@@ -35,11 +35,8 @@ module.exports = {
                     'fixed', // fixed position
                     'top-0', // move to top
                     'pv3', // vertical (top and bottom) padding
-                    // 'ph5-ns',
-                    // 'bg-white',
-                    // 'mb3',
-                    // 'mb5-ns',
-                    // 'bt',
+                    'bg-white', // white background
+                    'w-100', // fill entire width with white background
                     'overflow-auto', // add scrollbars when needed
                 ].join(' ')
             },
