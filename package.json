@@ -10,9 +10,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sujeevraja Sanjeevi",
   "license": "ISC",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:sujeevraja/sujeevraja.github.io.git"
+  },
   "dependencies": {
+    "@types/mithril": "^2.0.8",
     "mithril": "^2.0.4",
     "mixin-deep": "^2.0.1",
     "set-value": "^4.0.1"
