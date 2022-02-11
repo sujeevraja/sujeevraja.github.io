@@ -1,10 +1,15 @@
 [
     {
+        "title": "Decomposition Techniques for Aircraft Recovery",
+        "type": "invited talk",
+        "location": "AGIFORS Ops, online",
+        "date": "June 2020"
+    },
+    {
         "title": "A Team Orienteering Problem for Fixed-Wing Drones",
         "type": "invited talk",
         "location": "Arizona State University, Tempe, AZ",
         "date": "November 2019",
-        "presenter": "Sujeevraja Sanjeevi",
         "pdf": "slides/fixed_wing_top_presentation.pdf"
     },
     {
@@ -12,29 +17,7 @@
         "type": "invited talk",
         "location": "INFORMS Annual Meeting, Seattle, WA",
         "date": "October 2019",
-        "presenter": "Sujeevraja Sanjeevi",
         "pdf": "slides/stochastic_flight_scheduling_presentation.pdf"
-    },
-    {
-        "title": "Airline Schedule Planning Using Risk-Averse Two-Stage Stochastic Programming Approach",
-        "type": "invited talk",
-        "location": "INFORMS Annual Meeting, Seattle, WA",
-        "date": "October 2019",
-        "presenter": "Saravanan Venkatachalam"
-    },
-    {
-        "title": "Column Generation Algorithm for Risk-averse Two-stage Stochastic Programs",
-        "type": "invited talk",
-        "location": "INFORMS Annual Meeting, Phoenix, AZ",
-        "date": "November 2018",
-        "presenter": "Saravanan Venkatachalam"
-    },
-    {
-        "title": "Risk Averse Model for Fleet Assignments in Airlines",
-        "type": "invited talk",
-        "location": "INFORMS Optimizaiton Sociey Conference, Denver, CO",
-        "date": "March 2018",
-        "presenter": "Saravanan Venkatachalam"
     },
     {
         "title": "Airline Disruption Control With Crew Recovery",
@@ -115,12 +98,5 @@
         "location": "Mixed Integer Programming workshop, Gergia Tech, Atlanta, GA",
         "date": "July 2010",
         "pdf": "posters/srflp_poster.pdf"
-    },
-    {
-        "title": "Assessing the Impact of Alternate Objectives on the Spatial Properties of solutions in CIKR defense",
-        "type": "invited talk",
-        "location": "INFORMS Annual Meeting, San Diego, CA",
-        "date": "October 2009",
-        "presenter": "Justin Yates"
     }
 ]

@@ -54,6 +54,9 @@ module.exports = {
     },
     title: 'Publications',
     view: function () {
-        return m("ul", {}, Publication.list.map(publicationView))
+        return [
+            Publication.description,
+            m("ul", Publication.list.map(publicationView))
+        ]
     }
 };

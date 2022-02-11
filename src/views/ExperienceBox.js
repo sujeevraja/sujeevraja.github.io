@@ -2,18 +2,24 @@ var m = require("mithril")
 var Experience = require("../models/Experience")
 
 var experienceView = function (ex) {
-    var children = [
+    let children = [
         m('b', ex.role),
         m('br'),
-        m('i', ex.group + ', ' + ex.organization),
-        m('br'), ex.location,
+        (ex.group !== undefined
+            ? m('i', ex.group + ', ' + ex.organization)
+            : m('i', ex.organization)),
         m('br'),
-        ex.start, ' - ', ex.end]
+        ex.location,
+        m('br'),
+        ex.start,
+        ' - ',
+        ex.end,
+    ]
     return m("li", { class: "pa2" }, children)
 }
 
 module.exports = {
-    oninit: function() {
+    oninit: function () {
         if (!Experience.loaded) Experience.loadList()
     },
     title: 'Work Experience',
