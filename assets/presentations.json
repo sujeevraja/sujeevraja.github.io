@@ -1,5 +1,12 @@
 [
     {
+        "title": "Solving MINLPs with a MIP Solver",
+        "type": "seminar",
+        "location": "Sabre Labs",
+        "date": "February 2021",
+        "pdf": "slides/univariate_talk.pdf"
+    },
+    {
         "title": "Decomposition Techniques for Aircraft Recovery",
         "type": "invited talk",
         "location": "AGIFORS Ops, online",
