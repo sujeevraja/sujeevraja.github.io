@@ -1,0 +1,26 @@
+[
+    {
+        "authors": "Christopher Montez, Kaarthik Sundar, Sujeevraja Sanjeevi",
+        "title": "Global optimization algorithms for non-linear programs with trigonometric functions",
+        "notes": "In preparation",
+        "year": "2022"
+    },
+    {
+        "authors": "Christopher Montez, Kaarthik Sundar, Sujeevraja Sanjeevi",
+        "title": "Post-optimality sensitivity analysis for team orienteering",
+        "notes": "In preparation",
+        "year": "2022"
+    },
+    {
+        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Byron Tasseff",
+        "title": "Polyhedral relaxations for nonlinear on-off constraints with applications to infrastructure optimization",
+        "notes": "In preparation",
+        "year": "2022"
+    },
+    {
+        "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Sivakumar Rathinam, Joao Sousa",
+        "title": "Path planning for underwater vehicles with uncertain localization errors - from offline to online algorithms",
+        "notes": "In preparation",
+        "year": "2022"
+    }
+]

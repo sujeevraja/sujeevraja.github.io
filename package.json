@@ -1,24 +1,12 @@
 {
   "name": "personal-webpage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "bs": "browser-sync start --browser firefox --server --files \"bin/*\" \"assets/*\"",
-    "build": "webpack --config webpack.config.js --mode=production",
-    "start": "webpack --config webpack.config.js --mode=development --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "mithril": "^2.0.4",
-    "mixin-deep": "^2.0.1",
-    "set-value": "^4.0.1"
-  },
-  "devDependencies": {
-    "webpack": "^5.98.0",
-    "webpack-cli": "^4.9.2"
+    "astro": "^5.0.0"
   }
 }

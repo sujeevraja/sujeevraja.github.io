@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import publications from '../data/publications.json';
+import inProgress from '../data/yetToBePublished.json';
+---
+
+<Layout title="Publications">
+  <p>
+    My published work can be found on my{' '}
+    <a href="https://scholar.google.com/citations?user=S2CWoKoAAAAJ&hl=en">Google Scholar profile</a>.
+  </p>
+
+  <h2 class="f4 lh-title">Published &amp; Under Review</h2>
+  <ul>
+    {publications.map((pub) => (
+      <li class="pa2">
+        <i>{pub.title}</i><br />
+        {pub.authors}
+        {pub.journal && (
+          <span>
+            <br />{pub.journal}
+            {pub.volume && <span>, Vol {pub.volume}</span>}
+            {pub.issue && <span>, Issue {pub.issue}</span>}
+            {pub.pages && <span>, {pub.pages}</span>}
+          </span>
+        )}
+        {pub.notes && !pub.journal && <span><br />{pub.notes}</span>}
+        {pub.notes && pub.journal && <span>, {pub.notes}</span>}
+        {pub.year && <span>, {pub.year}</span>}.
+        {pub.links && pub.links.map((link) => (
+          <span> <a href={link.url}>[{link.name}]</a></span>
+        ))}
+      </li>
+    ))}
+  </ul>
+
+  <h2 class="f4 lh-title">Work in Progress</h2>
+  <ul>
+    {inProgress.map((pub) => (
+      <li class="pa2">
+        <i>{pub.title}</i><br />
+        {pub.authors}
+        {pub.notes && <span><br />{pub.notes}</span>}
+        {pub.year && <span>, {pub.year}</span>}.
+      </li>
+    ))}
+  </ul>
+</Layout>
