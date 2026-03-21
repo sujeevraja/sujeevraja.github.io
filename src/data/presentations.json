@@ -1,0 +1,109 @@
+[
+    {
+        "title": "Solving MINLPs with a MIP Solver",
+        "type": "seminar",
+        "location": "Sabre Labs",
+        "date": "February 2021",
+        "pdf": "slides/univariate_talk.pdf"
+    },
+    {
+        "title": "Decomposition Techniques for Aircraft Recovery",
+        "type": "invited talk",
+        "location": "AGIFORS Ops, online",
+        "date": "June 2020"
+    },
+    {
+        "title": "A Team Orienteering Problem for Fixed-Wing Drones",
+        "type": "invited talk",
+        "location": "Arizona State University, Tempe, AZ",
+        "date": "November 2019",
+        "pdf": "slides/fixed_wing_top_presentation.pdf"
+    },
+    {
+        "title": "Managing Airline Delay Uncertainty By Adjusting Connection Slacks: a Stochastic Programming Approach",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Seattle, WA",
+        "date": "October 2019",
+        "pdf": "slides/stochastic_flight_scheduling_presentation.pdf"
+    },
+    {
+        "title": "Airline Disruption Control With Crew Recovery",
+        "type": "invited talk",
+        "location": "Oklahoma State University, Stillwater, OK",
+        "date": "August 2016"
+    },
+    {
+        "title": "Deadhead selection strategies for crew recovery",
+        "type": "poster",
+        "location": "INFORMS Annual Meeting, Philadelphia, PA",
+        "date": "November 2015"
+    },
+    {
+        "title": "Airline Operations Recovery",
+        "type": "invited talk",
+        "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
+        "date": "October 2014"
+    },
+    {
+        "title": "AMPL, CPLEX, C Callable Library and Concert Technology",
+        "type": "invited talk",
+        "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
+        "date": "November 2012",
+        "pdf": "slides/ampl_cplex_presentation.pdf"
+    },
+    {
+        "title": "A New Perspective on Generating Facets for Polyhedral Second-Order Conic Sets",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Phoenix, AZ",
+        "date": "October 2012",
+        "pdf": "slides/psoc_presentation.pdf"
+    },
+    {
+        "title": "Mixed n-step MIR Inequalities: Facets for the n-mixing Set",
+        "type": "poster",
+        "location": "Mixed Integer Programming workshop, UC Davis, Davis, CA",
+        "date": "July 2012",
+        "pdf": "posters/mixing_mip_2012_poster.pdf"
+    },
+    {
+        "title": "n-step Conic MIR and Mixed n-step MIR",
+        "type": "invited talk",
+        "location": "Mixed Integer Programming workshop, UC Davis, CA",
+        "date": "July 2012",
+        "presenter": "Kiavash Kianfar"
+    },
+    {
+        "title": "Mixing n-step MIR Inequalities",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Charlotte, NC",
+        "date": "November 2011",
+        "pdf": "slides/n_step_mixing_presentation.pdf"
+    },
+    {
+        "title": "n-step Conic Mixed Integer Rounding Cuts",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Charlotte, NC",
+        "date": "November 2011",
+        "pdf": "slides/n_step_conic_presentation.pdf"
+    },
+    {
+        "title": "A Polyhedral Study of the Triplet Formulation for Single Row Facility Layout Problem",
+        "type": "invited talk",
+        "location": "INFORMS Annual Meeting, Austin, TX",
+        "date": "November 2010",
+        "pdf": "slides/srflp_presentation.pdf"
+    },
+    {
+        "title": "AMPL, CPLEX and C callable library",
+        "type": "invited talk",
+        "location": "INFORMS Student Chapter Seminar, Texas A&M University, College Station, TX",
+        "date": "October 2010"
+    },
+    {
+        "title": "A Polyhedral Study of Triplet Formulation for Single Row Facility Layout Problem",
+        "type": "poster",
+        "location": "Mixed Integer Programming workshop, Gergia Tech, Atlanta, GA",
+        "date": "July 2010",
+        "pdf": "posters/srflp_poster.pdf"
+    }
+]

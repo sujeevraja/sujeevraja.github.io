@@ -1,0 +1,23 @@
+---
+import Layout from '../layouts/Layout.astro';
+import presentations from '../data/presentations.json';
+---
+
+<Layout title="Presentations">
+  <ul>
+    {presentations.map((pres) => (
+      <li class="pa2">
+        <i>{pres.title}</i>, {pres.type}<br />
+        {pres.location}, {pres.date}
+        {pres.presenter && <span><br />presenter: {pres.presenter}</span>}
+        {pres.pdf && (
+          <span>
+            {' '}
+            <a href={`/assets/${pres.pdf}`}>{pres.type === 'poster' ? '[poster]' : '[slides]'}</a>
+          </span>
+        )}
+        .
+      </li>
+    ))}
+  </ul>
+</Layout>

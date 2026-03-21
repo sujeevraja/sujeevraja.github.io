@@ -1,0 +1,29 @@
+[
+    {
+        "degree": "Doctor of Philosophy (PhD)",
+        "department": "Industrial Engineering",
+        "university": "Texas A&M University",
+        "location": "College Station, Texas, USA",
+        "gpa": "3.91/4",
+        "start": "September 2009",
+        "end": "August 2012"
+    },
+    {
+        "degree": "Master of Science (MS)",
+        "department": "Industrial Engineering",
+        "university": "Texas A&M University",
+        "location": "College Station, Texas, USA",
+        "gpa": "3.91/4",
+        "start": "August 2007",
+        "end": "August 2009"
+    },
+    {
+        "degree": "Bachelor of Engineering (BE)",
+        "department": "Mechanical Engineering",
+        "university": "College of Engineering Guindy (CEG), Anna University",
+        "location": "Chennai, Tamilnadu, India",
+        "gpa": "8.681/10",
+        "start": "July 2003",
+        "end": "May 2007"
+    }
+]
