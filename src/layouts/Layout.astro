@@ -1,0 +1,65 @@
+---
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Personal homepage of Sujeevraja Sanjeevi — entrepreneur, researcher, and software engineer." />
+
+    <!-- tachyons provides layout classes like w-100, pa3 etc. -->
+    <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css" />
+
+    <!-- academicons provides academic page icons like Google Scholar. -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css" />
+
+    <!-- fontawesome provides company icons like Linkedin and Github. -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139697112-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', 'UA-139697112-1');
+    </script>
+
+    <title>Sujeev's Homepage</title>
+  </head>
+  <body>
+    <div class="helvetica pa5 bg-white black-70">
+      <nav class="fixed top-0 pv3 bg-white w-100 overflow-auto" style="z-index:1">
+        <div class="nowrap left">
+          <a href="/" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Home</a>
+          <a href="/experience" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Experience</a>
+          <a href="/education" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Education</a>
+          <a href="/publications" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Publications</a>
+          <a href="/presentations" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Presentations</a>
+          <a href="/teaching" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Teaching</a>
+          <a href="/activities" class="pv1-ns f6 fw6 dim link dark-gray mr3 mr3-m mr4-l dib">Activities</a>
+        </div>
+      </nav>
+
+      <div class="mw7">
+        <h1 class="f3 lh-title">{title}</h1>
+        <slot />
+      </div>
+
+      <footer class="tl gray fixed bottom-0 pv3 bg-white w-100">
+        Built with <a href="http://tachyons.io/" class="gray">Tachyons</a> &amp; <a href="https://astro.build/" class="gray">Astro</a>.
+      </footer>
+    </div>
+  </body>
+</html>

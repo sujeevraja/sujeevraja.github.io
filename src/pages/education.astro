@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import education from '../data/education.json';
+---
+
+<Layout title="Education">
+  <ul class="fa-ul">
+    {education.map((ed) => (
+      <li class="pb3">
+        <span class="fa-li"><i class="fas fa-graduation-cap"></i></span>
+        <b>{ed.degree}</b><br />
+        <i>{ed.department}</i><br />
+        {ed.university}, {ed.location}<br />
+        {ed.start} - {ed.end}
+      </li>
+    ))}
+  </ul>
+</Layout>
