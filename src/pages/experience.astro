@@ -1,0 +1,17 @@
+---
+import Layout from '../layouts/Layout.astro';
+import experience from '../data/experience.json';
+---
+
+<Layout title="Work Experience">
+  <ul>
+    {experience.map((ex) => (
+      <li class="pa2">
+        <b>{ex.role}</b><br />
+        <i>{ex.group ? `${ex.group}, ${ex.organization}` : ex.organization}</i><br />
+        {ex.location}<br />
+        {ex.start} - {ex.end}
+      </li>
+    ))}
+  </ul>
+</Layout>
