@@ -6,11 +6,18 @@ import experience from '../data/experience.json';
 <Layout title="Work Experience">
   <ul>
     {experience.map((ex) => (
-      <li class="pa2">
+      <li class="pa2 mb3">
         <b>{ex.role}</b><br />
-        <i>{ex.group ? `${ex.group}, ${ex.organization}` : ex.organization}</i><br />
+        <i>{ex.description ? `${ex.organization} — ${ex.description}` : ex.organization}</i><br />
         {ex.location}<br />
-        {ex.start} - {ex.end}
+        {ex.start} – {ex.end}
+        {ex.bullets && ex.bullets.length > 0 && (
+          <ul class="pl3 mt1">
+            {ex.bullets.map((b) => (
+              <li class="mb1">{b}</li>
+            ))}
+          </ul>
+        )}
       </li>
     ))}
   </ul>

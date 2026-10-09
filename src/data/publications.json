@@ -1,5 +1,17 @@
 [
     {
+        "authors": "Mishra M, Sanjeevi S, et al.",
+        "title": "Deep Reinforcement Learning for Single Vehicle Persistent Surveillance with Fuel Constraints",
+        "notes": "arXiv preprint",
+        "year": "2024",
+        "links": [
+            {
+                "name": "arXiv",
+                "url": "https://arxiv.org/abs/2404.06423"
+            }
+        ]
+    },
+    {
         "authors": "Kaarthik Sundar, Sujeevraja Sanjeevi, Harsha Nagarajan",
         "title": "Sequence of polyhedral relaxations for nonlinear univariate functions",
         "notes": "In preparation",
