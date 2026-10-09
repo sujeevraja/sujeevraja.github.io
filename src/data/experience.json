@@ -1,49 +1,58 @@
 [
     {
-        "role": "Co-founder and CTO",
+        "role": "Chief Technology Officer & Co-Founder",
         "organization": "OpsLab",
-        "location": "Austin, TX, USA",
-        "start": "February 2022",
-        "end": "Present"
+        "description": "AI-powered scheduling and operations software for military warfighters",
+        "location": "Chandler, AZ, USA",
+        "start": "March 2022",
+        "end": "Present",
+        "bullets": [
+            "$800K in federal funding won through 3 competitive SBIR proposals (Phase 1: $50K; Phase 2: $750K), contributing to 8 subsequent Phase 3 defense contracts.",
+            "94% reduction in scheduling time validated across 8 USAF squadrons, reducing schedule creation from 4 hours to under 15 minutes per weekly schedule.",
+            "First place ($30K) in air range management pitch competition, representing the company before defense evaluators and investors.",
+            "Built three optimization solvers single-handedly: long-range planning, short-term pilot assignment, and real-time reflow, using a novel precedence-graph rule engine with cascading violation detection.",
+            "Delivered SkySchedule platform integration in 75 days; architected IL4-compliant pipelines enabling CUI data handling and meeting DoD security requirements.",
+            "Conducted on-site product delivery, training, and feedback collection at multiple Air Force bases; translated field insights into validated product improvements and LLM workflow prototypes.",
+            "Built and deployed LangGraph-based natural language querying workflow with LLM-as-judge evaluation; prototyped real-time code generation with AWS Bedrock.",
+            "Co-authored peer-reviewed research on deep RL for UAV persistent surveillance (arXiv:2404.06423, 2024); invented calibration frameworks mapping operator preferences to optimization objectives.",
+            "Drove AI tooling adoption from zero to universal across the engineering team (Cursor, GitHub Copilot); achieved UK Cyber Essentials Plus certification.",
+            "Scaled engineering org from 0 to 15 (OR, backend, UI, contractors); hired, managed performance, and downsized strategically to match engineering efficiencies."
+        ]
     },
     {
-        "role": "Team Lead Operations Research",
-        "group": "Sabre Labs",
-        "organization": "Sabre",
+        "role": "Team Lead, Operations Research",
+        "organization": "Sabre Airline Solutions",
+        "description": "Global airline technology — solvers for real-time airline operations",
         "location": "Southlake, TX, USA",
-        "start": "November 2017",
-        "end": "July 2021"
+        "start": "January 2018",
+        "end": "March 2022",
+        "bullets": [
+            "First-ever production deployment of RMOps in Indonesia. Served as sole technical POC on-site: designed calibration system to capture scheduling requirements, coordinated live feedback with dev team, and participated in the airline's first optimizer-generated published schedule.",
+            "Led RMOps development: large-scale real-time solver for aircraft schedule disruptions, deployed in production by multiple international airlines.",
+            "Won first place, Sabre Inaugural AI/ML Hack Day (November 2018).",
+            "Received Airline Solutions Champion Award, given to the top 0.25% of employees (2H 2016)."
+        ]
     },
     {
-        "role": "Senior Operations Research",
-        "group": "Airline Solutions Operations Research",
-        "organization": "Sabre",
+        "role": "Senior Operations Research Engineer",
+        "organization": "Sabre Airline Solutions",
         "location": "Southlake, TX, USA",
         "start": "December 2013",
-        "end": "November 2017"
+        "end": "January 2018",
+        "bullets": [
+            "Core contributor to Recovery Manager Crew (RMC), one of the most successful crew recovery solvers in the US, enabling major airlines to recover broken schedules during large-scale weather events faster than industry average.",
+            "Key technical contributions: smart deadhead selection heuristics; mixed ground/air routing for NY-area crews; captain-to-FO downranking solution.",
+            "Research presented at INFORMS Annual Meeting (2015)."
+        ]
     },
     {
-        "role": "Postdoctoral Fellow",
-        "group": "Industrial Engineering and Operations Research",
-        "organization": "UC Berkeley",
+        "role": "Post-doctoral Researcher",
+        "organization": "University of California, Berkeley",
         "location": "Berkeley, CA, USA",
         "start": "January 2013",
-        "end": "December 2013"
-    },
-    {
-        "role": "Teaching Assistant",
-        "group": "Industrial & Systems Engineering",
-        "organization": "Texas A&M University",
-        "location": "College Station, TX, USA",
-        "start": "Jan 2012",
-        "end": "May 2012"
-    },
-    {
-        "role": "Research Assistant",
-        "group": "Industrial & Systems Engineering",
-        "organization": "Texas A&M University",
-        "location": "College Station, TX, USA",
-        "start": "August 2009",
-        "end": "December 2009"
+        "end": "November 2013",
+        "bullets": [
+            "Research on split cuts for ellipsoids and polyhedral theory for the Minimum Coverage Problem."
+        ]
     }
 ]
