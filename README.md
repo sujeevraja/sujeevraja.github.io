@@ -1,14 +1,35 @@
 # sujeevraja.github.io
 
-Source code for my [homepage](https://sujeevraja.github.io). Styles are obtained from the [Tachyons](https://tachyons.io) CSS toolkit. Front-end
-UI loading and routing is handled with [MithrilJS](https://mithril.js.org).
+Source code for my [homepage](https://sujeevraja.github.io), built with [Astro](https://astro.build) and styled with the [Tachyons](https://tachyons.io) CSS toolkit.
 
 ## Developing
-First, run `npm run start`. This command rebuilds "bin/app.js" whenever any JS file in the "src/" folder changes. 
 
-Next, run `npm run bs`. This launches firefox and serves "index.html" at
-`https://localhost:3000`. This command uses Browsersync to reload the webpage whenever "index.html", "bin/app.js" or any asset files change.
+Install dependencies and start Astro's development server:
+
+```sh
+npm install
+npm run dev
+```
+
+The site is available at the local URL printed by Astro, typically `http://localhost:4321`.
+
+## Building
+
+Create the production build:
+
+```sh
+npm run build
+```
+
+Preview the generated site locally:
+
+```sh
+npm run preview
+```
+
+The build output is written to `dist/`.
 
 ## Deploying
-Run `npm run build`. This prepares a minified JS bundle script at "bin/app.js". When this built file is committed to master, the update will be visible on the page. 
+
+Pushing to `master` runs the GitHub Actions workflow in `.github/workflows/deploy.yml`, which builds the Astro site and deploys `dist/` to GitHub Pages.
 
