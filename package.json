@@ -8,5 +8,9 @@
   },
   "dependencies": {
     "astro": "^7.3.3"
+  },
+  "overrides": {
+    "http-cache-semantics": "4.3.0",
+    "undici": "8.12.3"
   }
 }
